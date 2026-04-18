@@ -1,0 +1,9 @@
+# Maven build output
+/target/
+
+# IDE settings
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store

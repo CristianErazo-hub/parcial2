@@ -5,7 +5,10 @@ public abstract class Criatura {
     protected String nombre;
     protected int salud;
     protected int fuerza;
+ JeanPier
+    protected Arma arma; // composición
     protected Arma arma;
+ main
 
     public Criatura(String nombre, int salud, int fuerza) {
         this.nombre = nombre;

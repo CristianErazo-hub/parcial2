@@ -1,8 +1,8 @@
 package com;
 
-public class Guerrero extends Criatura {
+public class Mago extends Criatura implements Magico {
 
-    public Guerrero(String nombre, int salud, int fuerza) {
+    public Mago(String nombre, int salud, int fuerza) {
         super(nombre, salud, fuerza);
     }
 
@@ -15,11 +15,7 @@ public class Guerrero extends Criatura {
             dano += arma.getDanoAdicional();
         }
 
- JeanPier
-        System.out.println(nombre + " ataca con espada!");
-
-        System.out.println(nombre + " ataca con espada");
-main
+        lanzarHechizo();
         objetivo.defender(dano);
     }
 
@@ -27,5 +23,15 @@ main
     public void defender(int dano) {
         salud -= dano;
         System.out.println(nombre + " recibe " + dano + " de daño. Salud: " + salud);
+    }
+
+    @Override
+    public void lanzarHechizo() {
+        System.out.println(nombre + " lanza un hechizo!");
+    }
+
+    @Override
+    public void aprenderHechizo(String hechizo) {
+        System.out.println(nombre + " aprende el hechizo: " + hechizo);
     }
 }
