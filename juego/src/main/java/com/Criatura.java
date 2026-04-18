@@ -29,5 +29,3 @@ public abstract class Criatura {
         this.arma = null;
     }
 }
-
-}
