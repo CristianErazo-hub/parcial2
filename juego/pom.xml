@@ -22,6 +22,7 @@
         </dependency>
     </dependencies>
 
+ JeanPier
     <build>
         <plugins>
             <plugin>
@@ -32,4 +33,5 @@
         </plugins>
     </build>
 
+ main
 </project>

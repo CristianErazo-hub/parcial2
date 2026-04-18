@@ -15,7 +15,11 @@ public class Guerrero extends Criatura {
             dano += arma.getDanoAdicional();
         }
 
+ JeanPier
         System.out.println(nombre + " ataca con espada!");
+
+        System.out.println(nombre + " ataca con espada");
+main
         objetivo.defender(dano);
     }
 
